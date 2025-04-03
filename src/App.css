@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;  
+  }
+  .container{
+    background-color:black;
+    width: 45vw;
+    padding: 30px 20px !important;
+    border-radius: 8px;
+    color: whitesmoke;
+  }
+  .logo h1{
+    text-align: center;
+  }
+  .add-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .add-items input{
+    background-color: azure;
+    padding:4px 20px;
+    border: 1px solid #222;
+    border-radius: 4px 4px;
+    margin: 5px 5px;
+  }
+  button{
+    border: none;
+    border-radius: 4px !important;
+    padding: 6px 10px !important;
+    background-color: snow;
+  }
+.todo-items{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  
+  }
